@@ -56,7 +56,6 @@ dmypy.json
 
 # IDEs & Editors
 .vs/
-.vscode/
 .idea/
 .cursor/
 .gemini/
@@ -102,8 +101,6 @@ live_screenshot*.jpg
 live_screenshot*.png
 
 # Environment & Secrets
-.env
-.env.*
 !.env.example
 *.pem
 *.key
@@ -116,3 +113,5 @@ live_screenshot*.png
 .Trashes
 ehthumbs.db
 Thumbs.db
+config.bat
+node_modules
